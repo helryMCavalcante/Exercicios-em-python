@@ -1,0 +1,12 @@
+times = ('Corinthias','Palmeiras', 'Santos', 'Grêmio', 'Cruzeiro', 'Flamengo', 'Vaco', 'Chapeconese', 'São Paulo', 'Fluminense',
+         'Sport', 'EC Vitoria', 'Coritiba', 'Avaí', 'Ponte Preta', 'Atlético-GO')
+print('-=-'*20)
+print(f'Lista de times do brasileirão: {times}')
+print('-=-'*20)
+print(f'O 5 primeiros colocados: {times[0:5]}')
+print('-=-'*20)
+print(f'Os 4 ultimos colocados: {times[-4:]}')
+print('-=-'*20)
+print(f'{sorted(times)}')
+print('-=-'*20)
+print(f'O time Chapecoense está na posição {times.index("Chapeconese")+1}º')
